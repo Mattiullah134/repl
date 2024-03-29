@@ -6,7 +6,7 @@ import { File, buildFileTree, RemoteFile } from "./external/editor/utils/file-ma
 import { FileTree } from "./external/editor/components/file-tree";
 import { Socket } from "socket.io-client";
 
-// credits - https://codesandbox.io/s/monaco-tree-pec7u
+// credits - https://codesandbox .io/s/monaco-tree-pec7u
 export const Editor = ({
     files,
     onSelect,

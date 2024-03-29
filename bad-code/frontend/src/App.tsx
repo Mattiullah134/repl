@@ -1,7 +1,7 @@
-import './App.css'
-import { CodingPage } from './components/CodingPage'
+import "./App.css";
+import { CodingPage } from "./components/CodingPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Landing } from './components/Landing';
+import { Landing } from "./components/Landing";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Landing />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
